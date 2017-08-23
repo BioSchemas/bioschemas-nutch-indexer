@@ -55,7 +55,7 @@ An Apache Nutch plugin to extract and index bioschemas data from websites
 
 ### Testing your installation
 ```shell
-cd NUTCH\_HOME
+cd NUTCH_HOME
 mkdir urls
 cd urls
 touch seed.txt
