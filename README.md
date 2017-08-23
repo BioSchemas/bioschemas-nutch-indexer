@@ -68,3 +68,5 @@ Then go to http://localhost:9200/nutch/_search?pretty=true&q=*:*&size=100
 
 The documents body have several fields coming from the data crawled by Nutch, such as the plain text content (content), the crawling time stamp (tstamp), the source url (id) and the page title (title) among others. Inside the 'bioschemas' field you will find a JSON String containing the JSON representation of the microdata extraction result. This result is a JSON object, each field have the name of one item type coming from the extracted microdata, in this example we have "BreadCrumbList" and "Event". In those fields you will find JSON arrays with the JSON Object representation of the collected items.
 
+## Apache Nutch documentation
+Please find more information about how to use Apache Nutch in order to crawl websites [here](https://wiki.apache.org/nutch/NutchTutorial)
