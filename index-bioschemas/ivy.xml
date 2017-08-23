@@ -1,0 +1,26 @@
+<ivy-module version="1.0">
+  <info organisation="org.apache.nutch" module="${ant.project.name}">
+    <license name="Apache 2.0"/>
+    <ivyauthor name="Federico Lopez" url="http://github.com/ficolo"/>
+    <description>
+        Bioschemas plugin for Apache Nutch
+    </description>
+  </info>
+
+  <configurations>
+    <include file="${nutch.root}/ivy/ivy-configurations.xml"/>
+  </configurations>
+
+  <publications>
+    <!--get the artifact from our module name-->
+    <artifact conf="master"/>
+  </publications>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.any23/apache-any23-api -->
+    <dependency org="org.apache.any23" name="apache-any23-api" rev="2.0" conf="*->default"/>
+    <!-- https://mvnrepository.com/artifact/org.apache.any23/apache-any23-core -->
+    <dependency org="org.apache.any23" name="apache-any23-core" rev="2.0" conf="*->default"/>
+  </dependencies>
+  
+</ivy-module>
