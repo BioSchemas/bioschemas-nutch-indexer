@@ -38,7 +38,7 @@ An Apache Nutch plugin to extract and index bioschemas data from websites
 ### Download and install the plugin
 1. Download the binary distribution for the index-bioschemas plugin available at [the releases page](https://github.com/BioSchemas/bioschemas-nutch-indexer/releases) in this repo.
 2. Copy the plugin folder to NUTCH\_HOME/plugins
-3. Copy the mimetypes.jar from file to NUTCH\_HOME/lib
+3. Copy the mimetypes.jar file from [here](https://github.com/BioSchemas/bioschemas-nutch-indexer/blob/master/lib/mimetypes.jar) to NUTCH\_HOME/lib
 4. Edit the plugin.includes property in the NUTCH\_HOME/conf/nutch-site.xml file so it uses the index-bioschemas plugin:
 ```xml
 <property>
