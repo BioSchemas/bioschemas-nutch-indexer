@@ -73,7 +73,7 @@ Please find more information about how to use Apache Nutch in order to crawl web
 
 ## Setting up the development environment
 
-In order to build Apache Nutch with the plugin you will [Apache Ant](http://ant.apache.org/).
+In order to build Apache Nutch with the plugin you will need [Apache Ant](http://ant.apache.org/).
 
 1. Download the apache-nutch-1.13-src.tar.gz file from [here](http://www.apache.org/dyn/closer.cgi/nutch/)
 2. Extract the content to your favorite location (NUTCH\_SRC\_HOME)
